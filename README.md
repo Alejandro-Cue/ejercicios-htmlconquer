@@ -29,7 +29,16 @@ Este ejercicio consiste en una página principal index.html que enlaza a un tota
 Todos los archivos HTML están incluidos y comprimidos en un archivo .zip dentro del repositorio para facilitar su descarga y revisión.
 
 -    Archivos utilizados:
-     'index.html' (modificaco con la plantilla HTML5 Boilerplate)
+     'index.html' (modificado con la plantilla HTML5 Boilerplate)
+
+Tarea 06: Etiquetas semánticas
+
+En este ejercicio, a través de figma, buscamos identificar todas las etiquetas semánticas ubicadas en webs reales utilizadas como ejemplos.
+
+-    Archivos utilizados:
+     programa figma.
+
+
 
 ## 👨‍💻 Autor:
 
