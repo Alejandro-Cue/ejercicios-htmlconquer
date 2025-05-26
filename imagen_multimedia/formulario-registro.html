@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Iframe interno.</title>
+    </head>
+    <body>
+        <main>
+            <h3>Formulario sencillo.</h3>
+            <form
+                action="/registrar-cliente/"
+                name="registro"
+                method="get"
+                autocomplete="on"
+            >
+                <p>
+                    <label for="nombre">Nombre</label><br />
+                    <input type="text" name="nombre" id="nombre" />
+                </p>
+                <p>
+                    <label for="apellidos">Apellidos</label><br />
+                    <input type="text" name="apellidos" id="apellidos" />
+                </p>
+                <p>
+                    <label for="age">Edad</label><br />
+                    <input type="number" name="edad" id="age" />
+                </p>
+                <p>
+                    <label for="country">Pais</label><br />
+                    <input type="text" name="pais" id="country" />
+                </p>
+                <p>
+                    <label for="sex">Sexo</label><br />
+                    <select name="sexo" id="sex" required>
+                        <option selected value="">-</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="femenino">Femenino</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="bio">Biografía</label><br />
+                    <textarea
+                        name="biografia"
+                        id="bio"
+                        cols="30"
+                        rows="10"
+                    ></textarea>
+                </p>
+                <p>
+                    <input type="submit" value="Enviar" />
+                    <input type="reset" value="Borrar datos del formulario." />
+                </p>
+            </form>
+        </main>
+        <footer>
+            <address>Textarea ACM - 19/05/25</address>
+        </footer>
+    </body>
+</html>

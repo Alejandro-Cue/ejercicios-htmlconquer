@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ejercicio 3</title>
+    </head>
+    <body>
+        <header>
+            <h1>Rellena tu CV</h1>
+            <p><a href="index.html">Volver atrás</a></p>
+            <hr />
+        </header>
+        <main>
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <p>
+                        <label for="prov">Provincia</label>
+                        <select name="provincia" id="prov">
+                            <option selected value="">- selecciona -</option>
+                            <option value="leon">León</option>
+                            <option value="palencia">Palencia</option>
+                            <option value="burgos">Burgos</option>
+                            <option value="soria">Soria</option>
+                            <option value="segovia">Segovia</option>
+                            <option value="avila">Ávila</option>
+                            <option value="salamanca">Salamanca</option>
+                            <option value="zamora">Zamora</option>
+                            <option value="valladolid">Valladolid</option>
+                        </select>
+                    </p>
+
+                    <p>Fecha de nacimiento</p>
+
+                    <p>
+                        <label for="day"></label>
+                        <input
+                            type="number"
+                            name="dia"
+                            id="dia"
+                            size="2"
+                            maxlength="2"
+                        />
+                        de
+                        <label for="month"></label>
+                        <select name="mes" id="month">
+                            <option selected value="enero">Enero</option>
+                            <option value="febrero">Febrero</option>
+                            <option value="marzo">Marzo</option>
+                            <option value="abril">Abril</option>
+                            <option value="mayo">Mayo</option>
+                            <option value="junio">Junio</option>
+                            <option value="julio">Julio</option>
+                            <option value="agosto">Agosto</option>
+                            <option value="septiembre">Septiembre</option>
+                            <option value="octubre">Octubre</option>
+                            <option value="noviembre">Noviembre</option>
+                            <option value="diciembre">Diciembre</option>
+                        </select>
+                        <label for="year"></label>
+                        <input
+                            type="number"
+                            name="año"
+                            id="year"
+                            min="1900"
+                            max="2025"
+                        />
+                    </p>
+
+                    <p>
+                        <label for="description">Temas de interés</label><br />
+                        <select name="temas" id="description" multiple size="5">
+                            <option value="admin">
+                                Administración de base de datos
+                            </option>
+                            <option value="ayp">Análisis y programación</option>
+                            <option value="arq">Arquitectura</option>
+                            <option value="quality">Calidad</option>
+                            <option value="ecbi">
+                                ERP, CRM, Business inteligence
+                            </option>
+                        </select>
+                    </p>
+                </fieldset>
+                <p><button>Enviar</button></p>
+            </form>
+        </main>
+        <footer>
+            <address>Ejercicio 12 tarea 3 ACM - 20/05/25</address>
+        </footer>
+    </body>
+</html>

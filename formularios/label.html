@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Etiqueta Label</title>
+    </head>
+    <body>
+        <header>
+            <h1>Etiqueta Label.</h1>
+            <p><a href="index.html">Volver atrás</a></p>
+            <p>
+                La etiqueta label unifica el texto con el input a través del
+                atributo "for" que enlaza con un atributo "id" que se colocará
+                en el input. Deben ser iguales para que se produzca dicho
+                enlace. A este enlace se le conoce como accesibilidad.
+            </p>
+            <hr />
+        </header>
+        <main>
+            <form action="#" method="get">
+                <div>
+                    <h2>Checkbox</h2>
+                    <p>Seleccione los ingredientes de su pizza.</p>
+                    <input type="checkbox" name="Tomate" id="tomato" />
+                    <label for="tomato">Tomate</label><br />
+                    <input type="checkbox" name="Mozzarella" id="Mozzarella" />
+                    <label for="Mozzarella">Mozzarella</label><br />
+                    <input type="checkbox" name="Pepperoni" id="Pepperoni" />
+                    <label for="Pepperoni">Pepperoni</label><br />
+                    <input type="checkbox" name="Barbacoa" id="bbq" />
+                    <label for="bbq">Salsa Barbacoa</label><br />
+                    <input
+                        type="checkbox"
+                        name="Champiñones"
+                        id="Champiñones"
+                    />
+                    <label for="Champiñones">Champiñones</label><br />
+                </div>
+                <div>
+                    <h2>Radio button</h2>
+                    <p>Seleccione color para editar sus zapatillas.</p>
+                    <input type="radio" name="color" value="negro" id="black" />
+                    <label for="black">Negro</label><br />
+                    <input type="radio" name="color" value="azul" id="blue" />
+                    <label for="blue">Azul</label><br />
+                    <input type="radio" name="color" value="verde" id="green" />
+                    <label for="green">Verde</label><br />
+                    <input type="radio" name="color" value="beige" id="beige" />
+                    <label for="beige">Beige</label><br />
+                    <input type="radio" name="color" value="rojo" id="red" />
+                    <label for="red">Rojo</label><br /><br />
+                </div>
+                <div>
+                    <button>Enviar</button>
+                </div>
+            </form>
+        </main>
+        <footer>Radiobutton - Checkbox ACM - 20/05/25</footer>
+    </body>
+</html>

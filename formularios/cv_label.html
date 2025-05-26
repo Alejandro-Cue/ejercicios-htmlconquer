@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CV accesible</title>
+    </head>
+    <body>
+        <header>
+            <h1>Rellena tu CV</h1>
+            <p><a href="index.html">Volver atrás</a></p>
+        </header>
+        <main>
+            <form action="#" method="get" enctype="multipart/form-data">
+                <p>
+                    <label for="name">Nombre</label><br />
+                    <input type="text" name="nombre" id="name" />
+                </p>
+                <p>
+                    <label for="surname">Apellidos</label><br />
+                    <input
+                        type="text"
+                        name="apellidos"
+                        id="surname"
+                        size="30"
+                    />
+                </p>
+                <p>
+                    <label for="psw">Contraseña</label><br />
+                    <input type="password" name="clave" id="psw" />
+                </p>
+                <p>
+                    <label for="dni">DNI</label><br />
+                    <input type="text" name="dni" id="dni" size="9" />
+                </p>
+                <br /><br />
+                <p>
+                    <label for="photo">Incluir mi foto</label>
+                    <input type="file" name="foto" id="photo" />
+                </p>
+                <br /><br />
+                <p>
+                    <input type="submit" value="Guardar Cambios" />
+                    <input type="reset" value="Borrar datos introducidos" />
+                </p>
+            </form>
+        </main>
+        <footer>
+            <address>Ejercicio CV accesible ACM - 20/02/25</address>
+        </footer>
+    </body>
+</html>

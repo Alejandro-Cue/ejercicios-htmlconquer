@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>Tema 5 Imágenes y Multimedia.</title>
+        <meta name="description" content="Iframe con atributo name." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <meta property="og:title" content="" />
+        <meta property="og:type" content="" />
+        <meta property="og:url" content="" />
+        <meta property="og:image" content="" />
+
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="icon.png" />
+
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/style.css" />
+
+        <link rel="manifest" href="site.webmanifest" />
+        <meta name="theme-color" content="#fafafa" />
+    </head>
+
+    <body>
+        <header>
+            <h1>Etiqueta &lt;iframe&gt;.</h1>
+            <p><a href="index.html">Volver atrás.</a></p>
+            <hr />
+        </header>
+        <main>
+            <h3>Iframe con atributo name.</h3>
+            <p><em>Contraposición de Keynes y Hayek</em></p>
+            <ul>
+                <li>
+                    <a
+                        href="https://es.wikipedia.org/wiki/John_Maynard_Keynes"
+                        target="myIframe"
+                        >Cargar historia de John Maynard Keynes de wikipedia.</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="https://es.wikipedia.org/wiki/Friedrich_Hayek"
+                        target="myIframe"
+                        >Cargar historia de Friedrich von Hayek de wikipedia.</a
+                    >
+                </li>
+            </ul>
+
+            <iframe
+                src=""
+                name="myIframe"
+                frameborder="0"
+                width="1024"
+                height="768"
+            ></iframe>
+        </main>
+        <footer>
+            <p><em>Iframe con atributo name ACM - 21/05/25</em></p>
+            <script src="js/vendor/modernizr-3.12.0.min.js"></script>
+            <script src="js/app.js"></script>
+        </footer>
+    </body>
+</html>

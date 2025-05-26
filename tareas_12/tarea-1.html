@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formulario de registro - Mi web</title>
+    </head>
+    <body>
+        <header>
+            <h1>Tarea 1</h1>
+            <p><a href="index.html">Volver atrás.</a></p>
+            <hr />
+        </header>
+
+        <main>
+            <form action="" method="get">
+                <p>
+                    <label for="name">Nombre</label><br />
+                    <input
+                        type="text"
+                        name="nombre"
+                        id="name"
+                        maxlength="50"
+                        size="60"
+                    />
+                </p>
+
+                <p>
+                    <label for="surname">Apellidos</label><br />
+                    <input
+                        type="text"
+                        name="apellidos"
+                        id="surname"
+                        maxlength="50"
+                        size="60"
+                    />
+                </p>
+
+                <p>Seleccione su sexo.</p>
+
+                <p>
+                    <label for="masc">Masculino</label>
+                    <input type="radio" name="sexo" id="masc" /><br />
+                    <label for="fem">Femenino</label>
+                    <input type="radio" name="sexo" id="fem" />
+                </p>
+
+                <p>
+                    <label for="correo">Email</label><br />
+                    <input type="email" name="email" id="correo" />
+                </p>
+
+                <p>
+                    <label for="city">Población</label>
+                    <select name="ciudad" id="city">
+                        <option selected value="">-</option>
+                        <option value="Sevilla">Sevilla</option>
+                        <option value="Madrid">Madrid</option>
+                        <option value="Valencia">Valencia</option>
+                        <option value="Alicante">Alicante</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="descript">Descripción</label><br />
+                    <textarea
+                        name="description"
+                        id="descript"
+                        cols="40"
+                        rows="10"
+                    ></textarea>
+                </p>
+
+                <p>
+                    <input
+                        type="checkbox"
+                        name="recibirinfo"
+                        id="recibir"
+                        checked
+                    />
+                    <label for="recibir"
+                        >Deseo recibir información sobre novedades y
+                        ofertas.</label
+                    ><br />
+                    <input
+                        type="checkbox"
+                        name="privacy"
+                        id="aceptar"
+                        checked
+                        required
+                    />
+                    <label for="aceptar"
+                        >Declaro haber leido y aceptar las condiciones generales
+                        del programa y la normativa sobre protección de
+                        datos.</label
+                    >
+                </p>
+                <br />
+
+                <p><button>Enviar</button><br /><br /></p>
+            </form>
+        </main>
+
+        <footer>
+            <address>Ejercicio 12 tarea 1 ACM - 20/05/25</address>
+        </footer>
+    </body>
+</html>
