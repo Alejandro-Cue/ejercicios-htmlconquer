@@ -31,14 +31,47 @@ Todos los archivos HTML están incluidos y comprimidos en un archivo .zip dentro
 -    Archivos utilizados:
      'index.html' (modificado con la plantilla HTML5 Boilerplate)
 
-Tarea 06: Etiquetas semánticas
+Tareas 06: Etiquetas semánticas
 
 En este ejercicio, a través de figma, buscamos identificar todas las etiquetas semánticas ubicadas en webs reales utilizadas como ejemplos.
 
 -    Archivos utilizados:
      programa figma.
 
+Tareas 07: Ejercicios de listas, etiquetas <ul>, <ol> y anidamientoas
 
+En esta lista de ejercicios practicamos la utilización de etiquetas ordenadas (<ol>) y no ordenadas (<ul>) con y sin anidamientos. También se empleó el atributo reversed.
+
+-    Archivos utilizados:
+    'index.html' creado desde 0.
+
+Tareas 08: Ejercicios de tablas, etiquetas <table>, <tr>, <th> y <td>
+
+En esta lista de ejercicios vinculamos desde un index.html 6 ejercicios a traves de la etiqueta <a href=""> en el que se trataron las etiquetas <table> <caption> <th> <td> <tr> para la práctica de tablas simples en html.
+
+-    Archivos utilizados:
+    Archivos HTML creados desde 0 y enlazados desde un index.html
+
+Tareas 09: Ejercicios de tablas, atributos colspan y rowspan
+
+En esta lista de ejercicios se utilizaron para la creacion de tablas en HTML los atributos colspan y rowspan para combinar celdas adyacentes horizontal y verticalmente.
+
+-    Archivos utilizados:
+    Archivos HTML creados desde 0.
+
+Formularios: Ejercicios prácticos de clase
+
+En esta serie de ejercicios trabajamos conceptos básicos para entender la sintaxis de los formularios así como sus etiquetas y atributos.
+
+-    Archivos utilizados:
+    Archivos HTML creados desde 0 vinculados en un index.html
+
+Tareas 12: Ejercicios de formularios, etiquetas <form>, <label>, <option>, <textarea>, <button>, <fieldset>, <legend> y <select>
+
+En esta serie de ejercicios a parte de las etiquetas antes mencionadas se trabajaron los siguientes atributos: type, id, name, maxlength, value, for, selected, placeholder, cols, rows, enctype, con el objetivo de crear formularios algo más elaborados.
+
+-    Archivos utilizados:
+    Archivos HTML creados desde 0 y vinculados en un index.html 
 
 ## 👨‍💻 Autor:
 
