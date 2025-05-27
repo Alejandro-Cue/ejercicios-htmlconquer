@@ -105,13 +105,48 @@ Se practicó el uso de:
 
 ### Proyecto HTML
 
-Este proyecto consta de varios archivos html vinculados a un `index.html`. Simulamos una página web con los conceptos aprendidos durante el curso de HTML
+Proyecto HTML
+
+Este proyecto consta de varios archivos HTML vinculados desde una página principal (index.html). Se simula una página web institucional, aplicando todos los conceptos aprendidos durante el módulo de HTML: estructura, semántica, formularios, tablas, enlaces, multimedia y navegación entre secciones.
+
+El sitio está desarrollado de forma 100% semántica, utilizando etiquetas apropiadas como `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<figure>`, `<footer>`, etc. No se ha utilizado CSS ni JavaScript personalizado (excepto los scripts de compatibilidad incluidos en la plantilla Boilerplate).
+
+- **Archivos utilizados:**
+  - `index.html` (página principal)
+  - `quienes-somos.html`
+  - `cursos.html`
+  - `curso-1.html`
+  - `curso-2.html`
+  - `blog.html`
+  - `noticias-1.html`
+  - `noticias-2.html`
+  - `contacto.html`
+  - `login.html`
+  - `registro.html`
+  - `aviso-legal.html`
+
+```
+✔ Todos enlazados mediante rutas relativas desde el archivo index.html.
+✔ Todos los documentos incluyen estructura HTML5 y etiquetas semánticas.
+✔ Los formularios están correctamente etiquetados y funcionales.
+✔ El sitio contiene elementos multimedia: imagen de logotipo, mapa, enlaces externos e internos, y ficheros multimedia insertados mediante <iframe>.
+```
+
+👨‍💻 Autor:
+
+Este repositorio fue creado como parte de mi formación en desarrollo web fullstack en la academia ConquerBlocks, con el objetivo de consolidar mis conocimientos en HTML y sentar una base sólida para módulos posteriores de CSS y JavaScript.
+
+```
+Nombre: Alejandro Cué
+GitHub: @Alejandro-Cue
+```
+
 
 ---
 
 ## 👨‍💻 Autor:
 
-Este repositorio fue creado como parte de mi formación en desarrollo web, explorando los fundamentos de HTML paso a paso.
+Este repositorio fue creado como parte de mi formación en desarrollo web fullstack en la academia ConquerBlocks, con el objetivo de consolidar mis conocimientos en HTML y sentar una base sólida para módulos posteriores de CSS y JavaScript.
 
 - **Nombre:** Alejandro Cué  
 - **GitHub:** [@Alejandro-Cue](https://github.com/Alejandro-Cue)
