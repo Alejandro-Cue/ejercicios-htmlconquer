@@ -103,6 +103,10 @@ Se practicó el uso de:
 
   - Archivos HTML con plantilla Boilerplate y vinculados desde un `index.html`
 
+### Proyecto HTML
+
+Este proyecto consta de varios archivos html vinculados a un `index.html`. Simulamos una página web con los conceptos aprendidos durante el curso de HTML
+
 ---
 
 ## 👨‍💻 Autor:
