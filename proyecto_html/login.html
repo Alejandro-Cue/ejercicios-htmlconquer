@@ -1,35 +1,89 @@
-<!doctype html>
-<html class="no-js" lang="">
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Iniciar sesión.</title>
+    <meta
+      name="description"
+      content="Inicia sesión para entrar en la plataforma de academia ConquerBlocks."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="icon.png" />
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="theme-color" content="#fafafa" />
+  </head>
 
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
-</head>
+  <body style="background: #cccccc">
+    <header>
+      <figure>
+        <img
+          width="100%"
+          src="./img/common/logo-conquerblocks-color.png"
+          alt="Logotipo ConquerBlocks"
+        />
+      </figure>
 
-<body>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="quienes-somos.html">¿Quiénes somos?</a></li>
+          <li><a href="cursos.html">Cursos</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="registro.html">Registro</a></li>
+          <li>Login</li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.12.0.min.js"></script>
-  <script src="js/app.js"></script>
+    <main>
+      <h1>Inicia sesión</h1>
+      <p>
+        Es necesario iniciar sesión para acceder a la plataforma de la academia
+        ConquerBlocks.
+      </p>
 
-</body>
+      <form action="#" method="get">
+        <p>
+          <label for="user">Email</label><br />
+          <input type="email" name="usuario" id="user" required />
+        </p>
 
+        <p>
+          <label for="psw">Contraseña</label><br />
+          <input type="password" name="password" id="psw" required />
+        </p>
+
+        <p>
+          <button type="submit">Enviar</button>
+        </p>
+      </form>
+    </main>
+
+    <footer>
+      <figure>
+        <img
+          width="100%"
+          src="./img/common/63d3ca742762efa89c75d3e2_logo-conquerblocks-footer.svg"
+          alt="Logotipo ConquerBlocks footer"
+        />
+      </figure>
+      <p>
+        &copy; ConquerBlocks 2025 |
+        <a href="aviso-legal.html">Aviso legal.</a>
+      </p>
+    </footer>
+  </body>
 </html>
