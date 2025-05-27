@@ -132,18 +132,6 @@ El sitio está desarrollado de forma 100% semántica, utilizando etiquetas aprop
 ✔ El sitio contiene elementos multimedia: imagen de logotipo, mapa, enlaces externos e internos, y ficheros multimedia insertados mediante <iframe>.
 ```
 
-👨‍💻 Autor:
-
-Este repositorio fue creado como parte de mi formación en desarrollo web fullstack en la academia ConquerBlocks, con el objetivo de consolidar mis conocimientos en HTML y sentar una base sólida para módulos posteriores de CSS y JavaScript.
-
-```
-Nombre: Alejandro Cué
-GitHub: @Alejandro-Cue
-```
-
-
----
-
 ## 👨‍💻 Autor:
 
 Este repositorio fue creado como parte de mi formación en desarrollo web fullstack en la academia ConquerBlocks, con el objetivo de consolidar mis conocimientos en HTML y sentar una base sólida para módulos posteriores de CSS y JavaScript.
